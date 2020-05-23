@@ -1,0 +1,31 @@
+﻿.label-primary, .btn-primary {
+    background-color: #b4403d!important;
+}
+
+.border {
+    border: 0px solid #dad9d9!important;
+}
+
+label.ae.fa.label {
+    border: 1px solid #dad9d9!important;
+}
+
+.btn-primary {
+    border-color: #d4d4d4!important;
+}
+
+.light {
+    background-color: #f7e8e8;
+}
+
+.bg {
+    background-color: #cc9090;
+}
+
+ul.nav.nav-tabs>li>a {
+    color: #b4403d;
+}
+
+#des0 {
+	background-color: #b4403d;
+}
