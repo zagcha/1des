@@ -3,8 +3,14 @@
 }
 
 .bg {
-    background-color: #d09bae;
+    background-color: #c17b94;
 }
+
+
+.light {
+    background-color: #f1dae2;
+}
+
 
 #des1 {
     margin-bottom: 2px;
@@ -39,7 +45,6 @@
 
 .btn-primary {
     border-color: #fff!important;
-    border-radius: 5px!important
 }
 
 .ae.label.label-primary.fa.fa-gear {
@@ -62,9 +67,7 @@
     text-align: center!important
 }
 
-#des4,label.label.label-primary.mini.fl {
-    background-image: linear-gradient(90deg,#d86292 0,#ca497e 10%,#b72e66 51%,#ca497e 89%,#d86292 100%)
-}
+
 
 div#l1 input#u1 {
     width: 80%;
@@ -161,7 +164,6 @@ div#l1,div#l2,div#l3 {
     margin-top: 0;
     border-color: #7f3c54;
     border-radius: 15px;
-    background: transparent url(tot.png) no-repeat scroll right top;
     height: 62px
 }
 
@@ -232,12 +234,13 @@ a.label.label-primary.fl img.fl,button.btn.fr.btn-success.fa.fa-refresh,div#l2 b
     margin-top: 4px!important
 }
 
+
 label.label.label-primary.mini.fl {
-    width: 87.5%!important;
-    padding: 1px;
-    margin-top: 0;
-    border-radius: 15px!important
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 15px !important;
 }
+
 
 div#tlogins ::-webkit-scrollbar {
     width: 5px;
@@ -346,7 +349,7 @@ ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.na
 }
 
 ul.nav.nav-tabs {
-    margin-top: 1px;
+    margin-top: 0px;
     float: right;
     width: 100%;
     padding: 1px 1px;
