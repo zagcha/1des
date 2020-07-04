@@ -3,17 +3,13 @@
 }
 
 .bg {
-    background-color: #e898a1;
-}
-
-.light {
-    background-color: #ffeff0;
+    background-color: #c5c5c5;
 }
 
 #des1 {
     margin-bottom: 2px;
     font-family: el messiri,FontAwesome!important;
-    background-image: linear-gradient(90deg,#e63e6bb8 0,#e63e6bde 10%,#e63e6b 51%,#e63e6be0 89%,#e63e6bb8 100%);
+    background-image: linear-gradient(90deg,#797979b8 0,#797979de 10%,#797979 51%,#797979e0 89%,#797979b8 100%);
     color: #f9f9f9;
     border-radius: 3px;
     padding: 4px 0!important;
@@ -29,7 +25,7 @@
 }
 
 .btn-primary,.label-primary {
-    background-color: #e63e6b!important;
+    background-color: #797979!important;
     border: 0
 }
 
@@ -43,6 +39,7 @@
 
 .btn-primary {
     border-color: #fff!important;
+    border-radius: 5px!important
 }
 
 .ae.label.label-primary.fa.fa-gear {
@@ -56,7 +53,7 @@
 
 
 #des0 {
-    background-color: #e63e6b
+    background-color: #797979
 }
 
 
@@ -65,7 +62,9 @@
     text-align: center!important
 }
 
-
+#des4,label.label.label-primary.mini.fl {
+    background-image: linear-gradient(90deg,#d86292 0,#ca497e 10%,#b72e66 51%,#ca497e 89%,#d86292 100%)
+}
 
 div#l1 input#u1 {
     width: 80%;
@@ -91,7 +90,7 @@ div#l1 input#u1 {
     text-align: center;
     border-right: 7px solid;
     border-left: 7px solid;
-    border-color: #e63e6b
+    border-color: #797979
 }
 
 div#l2 input#u2 {
@@ -134,7 +133,7 @@ div#l2 input#u2,div#l3 input#u3 {
     text-align: center;
     border-right: 7px solid;
     border-left: 7px solid;
-    border-color: #e63e6b
+    border-color: #797979
 }
 
 div#l2 input#pass1,div#l3 input#pass2 {
@@ -143,7 +142,7 @@ div#l2 input#pass1,div#l3 input#pass2 {
     text-align: center;
     border-right: 7px solid;
     border-left: 7px solid;
-    border-color: #e63e6b
+    border-color: #797979
 }
 
 div#l2,div#l3 {
@@ -160,8 +159,9 @@ div#l1,div#l2,div#l3 {
     margin-bottom: 2px;
     border-top: 2px solid;
     margin-top: 0;
-    border-color: #e63e6b;
+    border-color: #797979;
     border-radius: 15px;
+    background: transparent url(tot.png) no-repeat scroll right top;
     height: 62px
 }
 
@@ -183,7 +183,7 @@ label.fl.label.loginstat {
 }
 
 .label-success {
-    background-color: #e63e6b
+    background-color: #797979
 }
 
 div.label.label-primary {
@@ -232,13 +232,12 @@ a.label.label-primary.fl img.fl,button.btn.fr.btn-success.fa.fa-refresh,div#l2 b
     margin-top: 4px!important
 }
 
-
 label.label.label-primary.mini.fl {
-    padding: 0px;
-    margin-top: 0px;
-    border-radius: 15px !important;
+    width: 87.5%!important;
+    padding: 1px;
+    margin-top: 0;
+    border-radius: 15px!important
 }
-
 
 div#tlogins ::-webkit-scrollbar {
     width: 5px;
@@ -254,11 +253,11 @@ div#tlogins ::-webkit-scrollbar-thumb {
     background: 0 0;
     border: 71px #fff;
     border-radius: 31px;
-    background-image: linear-gradient(90deg,#e63e6bb8 0,#e63e6bde 10%,#e63e6b 51%,#e63e6be0 89%,#e63e6bb8 100%)
+    background-image: linear-gradient(90deg,#797979b8 0,#797979de 10%,#797979 51%,#797979e0 89%,#797979b8 100%)
 }
 
 .border,div#tlogins {
-    box-shadow: inset 1px 1px 1px 0 #e63e6b2e,0 0 2px #e63e6b61
+    box-shadow: inset 1px 1px 1px 0 #7979792e,0 0 2px #79797961
 }
 
 div#tlogins ::-webkit-scrollbar-thumb:active {
@@ -293,14 +292,14 @@ label.fl.nosel.label.pnhead {
     padding: 5px;
     width: 85%;
     display: block;
-    background-color: #e63e6b
+    background-color: #797979
 }
 
 div#tlogins img.fitimg.fl.u-pic {
     padding: 0;
     border-radius: 3px;
     margin-right: 5px;
-    box-shadow: inset 1px 1px 1px 1px #e63e6b30,0 0 5px #e63e6b75
+    box-shadow: inset 1px 1px 1px 1px #79797930,0 0 5px #79797975
 }
 
 
@@ -308,7 +307,7 @@ ul.nav.nav-tabs>li>a {
     color: #fff;
     border: none;
     text-align: center;
-    background-color: #e63e6b;
+    background-color: #797979;
     border-radius: 3px;
     display: initial;
     width: 80%;
@@ -318,7 +317,7 @@ ul.nav.nav-tabs>li>a {
 
 ul.nav.nav-tabs>li.active>a {
     color: #fff;
-    background-color: #e63e6b;
+    background-color: #797979;
     border: none;
     border-radius: 3px;
 }
@@ -337,7 +336,7 @@ ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.na
     width: 23px;
     text-align: center;
     background-color: #fff;
-    color: #e63e6b;
+    color: #797979;
 }
 
 
@@ -347,7 +346,7 @@ ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.na
 }
 
 ul.nav.nav-tabs {
-    margin-top: 0px;
+    margin-top: 1px;
     float: right;
     width: 100%;
     padding: 1px 1px;
